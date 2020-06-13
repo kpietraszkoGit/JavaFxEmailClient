@@ -34,7 +34,8 @@ public class OptionsWindowController extends BaseController implements Initializ
     void applyBtnAction() {
         viewFactory.setColorTheme(themePicker.getValue());
         viewFactory.setFontSize(FontSize.values()[(int)(fontSizePicker.getValue())]);
-        viewFactory.updateStyles();
+        //viewFactory.updateStyles();
+        viewFactory.updateAllStyles();
     }
 
     @FXML

@@ -1,17 +1,17 @@
 package com.barosanu.controller.services;
 
-/*import com.barosanu.EmailManager;
+import com.barosanu.EmailManager;
 import com.barosanu.controller.EmailLoginResult;
 import com.barosanu.model.EmailAccount;
 import javafx.concurrent.Service;
 import javafx.concurrent.Task;
 
 import javax.mail.*;
-*/
+
 /**
  * Created by DELL on 2020-06-01.
  */
-/*
+
 public class LoginService extends Service<EmailLoginResult> {
 
     EmailAccount emailAccount;
@@ -33,6 +33,7 @@ public class LoginService extends Service<EmailLoginResult> {
         try {
             Thread.sleep(1000);
             Session session = Session.getInstance(emailAccount.getProperties(), authenticator);
+            emailAccount.setSession(session);
             Store store = session.getStore("imaps");
             store.connect(emailAccount.getProperties().getProperty("incomingHost"),
                     emailAccount.getAddress(),
@@ -65,7 +66,8 @@ public class LoginService extends Service<EmailLoginResult> {
         };
     }
 }
-*/
+
+/*
 import com.barosanu.EmailManager;
 import com.barosanu.controller.EmailLoginResult;
 import com.barosanu.model.EmailAccount;
@@ -126,4 +128,4 @@ public class LoginService extends Service<EmailLoginResult> {
             }
         };
     }
-}
+}*/

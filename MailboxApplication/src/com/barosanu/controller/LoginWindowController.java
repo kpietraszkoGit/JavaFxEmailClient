@@ -1,6 +1,6 @@
 package com.barosanu.controller;
 
-/*import com.barosanu.EmailManager;
+import com.barosanu.EmailManager;
 import com.barosanu.controller.services.LoginService;
 import com.barosanu.model.EmailAccount;
 import com.barosanu.view.ViewFactory;
@@ -14,11 +14,11 @@ import javafx.stage.Stage;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-*/
+
 /**
  * Created by DELL on 2020-05-31.
  */
-/*
+
 public class LoginWindowController extends BaseController implements Initializable {
 
     @FXML
@@ -86,10 +86,10 @@ public class LoginWindowController extends BaseController implements Initializab
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         emailAddressField.setText("pietraszkokamil3@gmail.com");
-        passwordField.setText("************");
+        passwordField.setText("waltornia123");
     }
-}*/
-import com.barosanu.EmailManager;
+}
+/*import com.barosanu.EmailManager;
 import com.barosanu.controller.services.LoginService;
 import com.barosanu.model.EmailAccount;
 import com.barosanu.view.ViewFactory;
@@ -166,4 +166,4 @@ public class LoginWindowController extends BaseController implements Initializab
         emailAddressFied.setText("barosanu2489@gmail.com");
         passwordField.setText("asdliwoeu2349Teuu!");
     }
-}
+}*/
